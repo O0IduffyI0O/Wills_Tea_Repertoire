@@ -1,4 +1,4 @@
 <% @tea_groups.each do |tg| %>
-  <p>Name: <%= tg.name %></p>
+  <p> Name: <%= link_to tg.name, tea_group_path(tg) %> </p>
   <p>---------------------</p>
 <% end %>
