@@ -1,6 +1,6 @@
 class CreateTeaGroupModel < ActiveRecord::Migration[5.0]
   def change
-    create_table :tea_group_models do |t|
+    create_table :tea_groups do |t|
       t.string :name
       t.text :description
     end
